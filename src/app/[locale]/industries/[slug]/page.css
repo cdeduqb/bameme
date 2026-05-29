@@ -1,0 +1,148 @@
+/* 行业落地页专属高奢样式表 */
+
+.industry-page-container {
+  background-color: #faf9f6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.breadcrumb-nav {
+  width: 100%;
+  padding: 1.5rem 2rem 0.5rem 2rem;
+}
+
+.breadcrumb-inner {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.85rem;
+  color: #7a6e60;
+  text-align: left;
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: #7a6e60;
+  transition: all 0.25s ease;
+}
+
+.breadcrumb-link {
+  color: #b48a50;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+.breadcrumb-link:hover {
+  color: #2b261f !important;
+  text-decoration: none !important;
+}
+
+.breadcrumb-link svg {
+  width: 14px;
+  height: 14px;
+  opacity: 0.85;
+  transition: transform 0.2s ease;
+}
+
+.breadcrumb-link:hover svg {
+  transform: translateY(-1px);
+}
+
+.breadcrumb-text-muted {
+  color: #7a6e60;
+  font-weight: 400;
+}
+
+.breadcrumb-text-active {
+  color: #2b261f;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.breadcrumb-separator {
+  color: #d1c4b2;
+  font-weight: 300;
+  user-select: none;
+  padding: 0 0.2rem;
+  font-size: 0.8rem;
+}
+
+/* 行业特有的 Hero 金色呼吸效果与微交互 */
+.cta-button-gold {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+.cta-button-gold:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(180,138,80,0.5) !important;
+  filter: brightness(1.05);
+}
+
+.cta-button-gold:active {
+  transform: translateY(-1px);
+}
+
+/* 特色优势卡片微动画 */
+.adv-card {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.adv-card:hover {
+  transform: translateY(-5px);
+  border-color: #b48a50 !important;
+  box-shadow: 0 12px 28px rgba(180, 150, 100, 0.08) !important;
+}
+
+/* 导航链接 hover */
+.nav-inquiry-link {
+  transition: color 0.2s ease;
+}
+.nav-inquiry-link:hover {
+  color: #b48a50 !important;
+}
+
+/* 行业图自适应容器 */
+.hero-image-wrapper img {
+  transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.hero-image-wrapper:hover img {
+  transform: scale(1.03) rotate(1deg);
+}
+
+/* 响应式媒体调整 */
+@media (max-width: 968px) {
+  .industry-hero-section h1 {
+    font-size: 2.2rem !important;
+  }
+  .industry-hero-section p {
+    font-size: 0.95rem !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .breadcrumb-nav {
+    padding: 1.5rem 1rem 0.5rem 1rem !important;
+  }
+  .industry-hero-section {
+    padding: 3rem 1rem !important;
+  }
+  .industry-hero-section h1 {
+    font-size: 1.8rem !important;
+  }
+  .industry-advantages {
+    padding: 3.5rem 1rem !important;
+  }
+  .industry-inquiry-section {
+    padding: 3.5rem 1rem !important;
+  }
+}
