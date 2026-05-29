@@ -14,7 +14,9 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const t = await getTranslations({ locale, namespace: "Index" });
   const baseUrl = "https://www.bameme.com";
 
-  const languageAlternates: Record<string, string> = {};
+  const languageAlternates: Record<string, string> = {
+    "x-default": `${baseUrl}/en`,
+  };
   routing.locales.forEach((loc) => {
     languageAlternates[loc] = `${baseUrl}/${loc}`;
   });

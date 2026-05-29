@@ -35,7 +35,9 @@ export async function generateMetadata({ params }: IndustryPageProps): Promise<M
   const trans = industry.locales[locale] || industry.locales.en;
   const baseUrl = "https://www.bameme.com";
 
-  const languageAlternates: Record<string, string> = {};
+  const languageAlternates: Record<string, string> = {
+    "x-default": `${baseUrl}/en/industries/${slug}`,
+  };
   routing.locales.forEach((loc) => {
     languageAlternates[loc] = `${baseUrl}/${loc}/industries/${slug}`;
   });
