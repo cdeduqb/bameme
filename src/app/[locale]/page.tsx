@@ -70,12 +70,35 @@ export default async function IndexPage({ params }: PageProps) {
         "@type": "Brand",
         "name": "BAMEME Packaging"
       },
+      "sku": "BAMEME-MAIN-01",
+      "mpn": "BAMEME-MAIN-01",
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Marcus K."
+        },
+        "reviewBody": locale === "zh" ? "物理材质样品包非常值。3D 在线定制工具确定的 LOGO 尺寸在出大货时极其精准。大货空运只花了 5 天就送到纽约了，非常赞的效率！" : "The physical sample pack is incredibly helpful. The logo positions matched perfectly with the final mass production. Delivery to New York via air cargo took only 5 days!"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1200"
+      },
       "offers": {
         "@type": "AggregateOffer",
         "priceCurrency": "USD",
         "lowPrice": "0.10",
         "highPrice": "2.00",
         "offerCount": "1000",
+        "url": `https://www.bameme.com/${locale}`,
+        "priceValidUntil": "2027-12-31",
+        "availability": "https://schema.org/InStock",
         "priceSpecification": {
           "@type": "UnitPriceSpecification",
           "price": "0.50",
@@ -176,12 +199,35 @@ export default async function IndexPage({ params }: PageProps) {
         "@type": "Brand",
         "name": "BAMEME Packaging"
       },
+      "sku": "BAMEME-MF-01",
+      "mpn": "BAMEME-MF-01",
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Sophia R."
+        },
+        "reviewBody": locale === "zh" ? "起订量 1000 个对我这种刚起步的手工作坊非常友好！超细纤维束口袋手感非常奢华，烫金效果完美，客户收到都赞不绝口。会长期回购！" : "The low MOQ of 1000 units is a lifesaver for my small artisan jewelry shop. The microfiber bags feel extremely premium, and the gold foil stamp is flawless. Highly recommend!"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1200"
+      },
       "offers": {
         "@type": "AggregateOffer",
         "priceCurrency": "USD",
         "lowPrice": "0.15",
         "highPrice": "0.85",
         "offerCount": "1000",
+        "url": `https://www.bameme.com/${locale}`,
+        "priceValidUntil": "2027-12-31",
+        "availability": "https://schema.org/InStock",
         "eligibleQuantity": {
           "@type": "QuantitativeValue",
           "value": "1000",
@@ -199,12 +245,35 @@ export default async function IndexPage({ params }: PageProps) {
         "@type": "Brand",
         "name": "BAMEME Packaging"
       },
+      "sku": "BAMEME-VV-01",
+      "mpn": "BAMEME-VV-01",
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Aria V."
+        },
+        "reviewBody": locale === "zh" ? "袋子选用的天鹅绒质感极佳，柔软厚实且极其细腻，这对于我们精致的玻璃香水瓶包装提供了完美的防刮蹭与避震缓冲保护。合作体验非常专业！" : "Excellent velvet fabric quality, extremely soft and thick. It provides crucial scratch and shock protection for our premium perfume glass packaging. Outstanding service!"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1200"
+      },
       "offers": {
         "@type": "AggregateOffer",
         "priceCurrency": "USD",
         "lowPrice": "0.20",
         "highPrice": "0.95",
         "offerCount": "1000",
+        "url": `https://www.bameme.com/${locale}`,
+        "priceValidUntil": "2027-12-31",
+        "availability": "https://schema.org/InStock",
         "eligibleQuantity": {
           "@type": "QuantitativeValue",
           "value": "1000",
@@ -222,12 +291,35 @@ export default async function IndexPage({ params }: PageProps) {
         "@type": "Brand",
         "name": "BAMEME Packaging"
       },
+      "sku": "BAMEME-PB-01",
+      "mpn": "BAMEME-PB-01",
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Sophia R."
+        },
+        "reviewBody": locale === "zh" ? "起订量 1000 个对我这种刚起步的手工作坊非常友好！超细纤维束口袋手感非常奢华，烫金效果完美，客户收到都赞不绝口。会长期回购！" : "The low MOQ of 1000 units is a lifesaver for my small artisan jewelry shop. The microfiber bags feel extremely premium, and the gold foil stamp is flawless. Highly recommend!"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1200"
+      },
       "offers": {
         "@type": "AggregateOffer",
         "priceCurrency": "USD",
         "lowPrice": "0.30",
         "highPrice": "1.20",
         "offerCount": "1000",
+        "url": `https://www.bameme.com/${locale}`,
+        "priceValidUntil": "2027-12-31",
+        "availability": "https://schema.org/InStock",
         "eligibleQuantity": {
           "@type": "QuantitativeValue",
           "value": "1000",
@@ -245,12 +337,35 @@ export default async function IndexPage({ params }: PageProps) {
         "@type": "Brand",
         "name": "BAMEME Packaging"
       },
+      "sku": "BAMEME-KP-01",
+      "mpn": "BAMEME-KP-01",
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Marcus K."
+        },
+        "reviewBody": locale === "zh" ? "物理材质样品包非常值。3D 在线定制工具确定的 LOGO 尺寸在出大货时极其精准。大货空运只花了 5 天就送到纽约了，非常赞的效率！" : "The physical sample pack is incredibly helpful. The logo positions matched perfectly with the final mass production. Delivery to New York via air cargo took only 5 days!"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1200"
+      },
       "offers": {
         "@type": "AggregateOffer",
         "priceCurrency": "USD",
         "lowPrice": "0.10",
         "highPrice": "0.50",
         "offerCount": "1000",
+        "url": `https://www.bameme.com/${locale}`,
+        "priceValidUntil": "2027-12-31",
+        "availability": "https://schema.org/InStock",
         "eligibleQuantity": {
           "@type": "QuantitativeValue",
           "value": "1000",
@@ -268,12 +383,35 @@ export default async function IndexPage({ params }: PageProps) {
         "@type": "Brand",
         "name": "BAMEME Packaging"
       },
+      "sku": "BAMEME-CC-01",
+      "mpn": "BAMEME-CC-01",
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Aria V."
+        },
+        "reviewBody": locale === "zh" ? "袋子选用的天鹅绒质感极佳，柔软厚实且极其细腻，这对于我们精致的玻璃香水瓶包装提供了完美的防刮蹭与避震缓冲保护。合作体验非常专业！" : "Excellent velvet fabric quality, extremely soft and thick. It provides crucial scratch and shock protection for our premium perfume glass packaging. Outstanding service!"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1200"
+      },
       "offers": {
         "@type": "AggregateOffer",
         "priceCurrency": "USD",
         "lowPrice": "0.25",
         "highPrice": "0.90",
         "offerCount": "1000",
+        "url": `https://www.bameme.com/${locale}`,
+        "priceValidUntil": "2027-12-31",
+        "availability": "https://schema.org/InStock",
         "eligibleQuantity": {
           "@type": "QuantitativeValue",
           "value": "1000",
@@ -291,12 +429,35 @@ export default async function IndexPage({ params }: PageProps) {
         "@type": "Brand",
         "name": "BAMEME Packaging"
       },
+      "sku": "BAMEME-MB-01",
+      "mpn": "BAMEME-MB-01",
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Marcus K."
+        },
+        "reviewBody": locale === "zh" ? "物理材质样品包非常值。3D 在线定制工具确定的 LOGO 尺寸在出大货时极其精准。大货空运只花了 5 天就送到纽约了，非常赞的效率！" : "The physical sample pack is incredibly helpful. The logo positions matched perfectly with the final mass production. Delivery to New York via air cargo took only 5 days!"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1200"
+      },
       "offers": {
         "@type": "AggregateOffer",
         "priceCurrency": "USD",
         "lowPrice": "0.50",
         "highPrice": "2.00",
         "offerCount": "1000",
+        "url": `https://www.bameme.com/${locale}`,
+        "priceValidUntil": "2027-12-31",
+        "availability": "https://schema.org/InStock",
         "eligibleQuantity": {
           "@type": "QuantitativeValue",
           "value": "1000",

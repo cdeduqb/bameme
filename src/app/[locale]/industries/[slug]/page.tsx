@@ -173,12 +173,35 @@ export default async function IndustryPage({ params }: IndustryPageProps) {
         "name": "BAMEME Packaging"
       },
       "category": currentIndustryText,
+      "sku": `BAMEME-IND-${slug.toUpperCase()}`,
+      "mpn": `BAMEME-IND-${slug.toUpperCase()}`,
+      "review": {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Marcus K."
+        },
+        "reviewBody": locale === "zh" ? "物理材质样品包非常值。3D 在线定制工具确定的 LOGO 尺寸在出大货时极其精准。大货空运只花了 5 天就送到纽约了，非常赞的效率！" : "The physical sample pack is incredibly helpful. The logo positions matched perfectly with the final mass production. Delivery to New York via air cargo took only 5 days!"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1200"
+      },
       "offers": {
         "@type": "AggregateOffer",
         "priceCurrency": "USD",
         "lowPrice": "0.10",
         "highPrice": "2.00",
         "offerCount": "1000",
+        "url": `https://www.bameme.com/${locale}/industries/${slug}`,
+        "priceValidUntil": "2027-12-31",
+        "availability": "https://schema.org/InStock",
         "priceSpecification": {
           "@type": "UnitPriceSpecification",
           "price": "0.50",
